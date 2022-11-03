@@ -15,7 +15,7 @@ count = 0
 
 # Open WhatsApp URL in chrome browser
 driver.get("https://web.whatsapp.com/")
-wait = WebDriverWait(driver, 20)
+wait = WebDriverWait(driver, 300)
 
 # Read data from excel
 excel_data = pandas.read_excel('Customer bulk email data.xlsx', sheet_name='Customers')
